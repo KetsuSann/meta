@@ -4,7 +4,7 @@ const NFTs = []
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT (_name, _size, _personality, _letter)
+function mintNFT (_name, _size, _personality, _letter) {
     const NFT = {
         "name": _name,
         "size": _size,
@@ -13,6 +13,7 @@ function mintNFT (_name, _size, _personality, _letter)
     }
     NFTs.push(NFT);
     console.log("Minted: " + _name)
+}
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
